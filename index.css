@@ -80,6 +80,7 @@ body {
   grid-row: 1 / 2;
   background-color: hsl(31, 66%, 93%);
   border-radius: 10px;
+  align-items: center;
 }
 
 .item-7 img {
@@ -91,11 +92,11 @@ body {
   grid-row: 2 / 4;
   background-color: hsl(39, 100%, 71%);
   border-radius: 10px;
+  align-items: center;
 }
 
 .item-8 img {
   width: 60%;
-  align-items: center;
 }
 
 
