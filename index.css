@@ -14,8 +14,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'DM Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 1.1rem;
+  font-weight: 500;
   
 }
 
@@ -86,11 +86,14 @@ body {
 }
 
 .item-7 img {
-  width: 70%;
+  width: 80%;
+  margin-left: 1rem;
 }
+
 .item-7 h2 p{
   color: hsl(256, 67%, 59%);
   font-style: italic;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -104,6 +107,12 @@ body {
 
 .item-8 img {
   width: 60%;
+  margin: auto;
+}
+
+.item-8 h2 {
+  padding: 1rem;
+  font-size: 1.8rem;
 }
 
 
