@@ -15,7 +15,7 @@ body {
   padding: 0;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   
 }
 
@@ -23,10 +23,10 @@ body {
 .bento-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnas de igual tamaño */
-  grid-template-rows: 15rem 10rem 10rem;          /* 3 filas de igual tamaño */
+  grid-template-rows: 20rem 10rem 10rem;          /* 3 filas de igual tamaño */
   gap: 2rem;                           /* Espacio entre los elementos */
-  width: 80%;
-  margin: 50px auto;                  /* Centrado horizontal con margen superior */
+  width: 60%;
+  margin: 70px auto;                  /* Centrado horizontal con margen superior */
 }
 
 
@@ -65,7 +65,9 @@ body {
   grid-column: 3 / 5;
   grid-row: 3 / 3;
   background-color: hsl(256, 67%, 59%); 
+  color: white;
   border-radius: 10px;
+  padding: 2rem;
 } 
 
 .item-6 {
@@ -79,12 +81,17 @@ body {
   grid-column: 1 / 1;
   grid-row: 1 / 2;
   background-color: hsl(31, 66%, 93%);
+  padding: 2rem;
   border-radius: 10px;
-  align-items: center;
 }
 
 .item-7 img {
-  width: 50%;
+  width: 70%;
+}
+.item-7 h2 p{
+  color: hsl(256, 67%, 59%);
+  font-style: italic;
+  margin: 0;
 }
 
 .item-8 {
