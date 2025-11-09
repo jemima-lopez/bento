@@ -23,7 +23,7 @@ body {
 .bento-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnas de igual tamaño */
-  grid-template-rows: 20rem 10rem 10rem;          /* 3 filas de igual tamaño */
+  grid-template-rows: 20rem 13rem 13rem;          /* 3 filas de igual tamaño */
   gap: 2rem;                           /* Espacio entre los elementos */
   width: 75%;
   margin: 70px auto;                  /* Centrado horizontal con margen superior */
@@ -67,8 +67,20 @@ body {
   background-color: hsl(256, 67%, 59%); 
   color: white;
   border-radius: 10px;
-  padding: 2rem;
+  gap: 0.5rem;
+  display: flex;
 } 
+
+.item-5 img {
+  width: 40%;
+  float: left;
+}
+
+.item-5 h2 {
+  margin-top: 3.5rem;
+  float: right;
+  height: larger;
+}
 
 .item-6 {
   grid-column: 2 / 3;
@@ -106,12 +118,15 @@ body {
 }
 
 .item-8 img {
-  width: 60%;
+  width: 65%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .item-8 h2 {
-  padding: 1rem;
+  padding: 2rem;
   font-size: 1.8rem;
 }
 
