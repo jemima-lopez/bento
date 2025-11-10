@@ -32,12 +32,27 @@ body {
   grid-row: 1 / 2;    /* Ocupa desde la línea de fila 1 hasta la 3 */
   background-color: hsl(256, 67%, 59%);
   border-radius: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-1 h1 {
   color: white;
   padding: 2rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  width: 80%;
+  font-weight: 500;
+}
+
+.item-1 p {
+  color: hsl(10, 10%, 100%);
+  font-size: 1.2rem;
+}
+
+.item-1 img {
+  width: 30%;
 }
 
 .item-2 {
