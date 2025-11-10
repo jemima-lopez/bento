@@ -3,7 +3,7 @@
   font-family: "DM Sans";
   src: url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 400, 500;
   font-style: normal;
 } 
 
@@ -13,7 +13,10 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'DM Sans', sans-serif;  
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: hsl(47, 33%, 95%);
 }
 
 
@@ -22,7 +25,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnas de igual tamaño */
   grid-template-rows: 20rem 13rem 13rem;          /* 3 filas de igual tamaño */
   gap: 2rem;                           /* Espacio entre los elementos */
-  width: 60%;
+  width: 70%;
   margin: 70px auto;                  /* Centrado horizontal con margen superior */
 }
 
@@ -41,27 +44,28 @@ body {
 
 .item-1 h1 {
   color: white;
-  padding-left: 1.5rem;
-  font-size: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 0.9;
+  font-size: 3.6rem;
   font-weight: 500;
 }
 
-.item-1 p {
-  color: hsl(10, 10%, 100%);
-  font-size: 1.2rem;
-}
-
-.item-1 .faster {
+.item-1 .faster{
   font-style: italic;
 }
 
 .item-1 .ten {
   color: hsl(39, 100%, 71%);
 }
-
 .item-1 img {
   margin: none;
   width: 30%;
+}
+
+.item-1 p {
+  color: white;
+  font-size: 1.2rem;
 }
 
 .item-2 {
@@ -71,6 +75,16 @@ body {
   color: black;
   border-radius: 10px;
 }
+
+.item-2 img {
+  width: 80%;
+
+}
+
+.item-2 h2 {
+  font-size: 1.8rem;
+}
+
 .item-3 {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
@@ -100,9 +114,11 @@ body {
 
 .item-5 h2 {
   margin-top: 3.5rem;
-  font-size: 2rem;
-
-}
+  margin-right: 1rem;
+  font-size: 2.2rem;
+  line-height: 0.8;
+  font-weight: 500;
+} 
 
 .item-6 {
   grid-column: 2 / 3;
@@ -120,19 +136,23 @@ body {
 }
 
 .item-7 img {
-  width: 80%;
-  margin-left: 1rem;
+  width: 85%;
+  margin-left: 0.5rem;
 }
 
 .item-7 h2 {
-  font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 0.9;
 }
 
 .item-7 h2 p{
   color: hsl(256, 67%, 59%);
   font-style: italic;
-  font-size: 2rem;
+  font-weight: 700;
   margin: 0;
+  width: 80%;
 }
 
 .item-8 {
@@ -144,7 +164,7 @@ body {
 }
 
 .item-8 img {
-  width: 65%;
+  width: 75%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -153,14 +173,11 @@ body {
 
 .item-8 h2 {
   padding: 2rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  line-height: 0.8;
+  font-weight: 500;
 }
 
-.attribution { 
-  font-size: 11px; 
-  text-align: center;
-}
 
-.attribution a { 
-  color: hsl(228, 45%, 44%);
-}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
