@@ -3,7 +3,7 @@
   font-family: "DM Sans";
   src: url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
   font-optical-sizing: auto;
-  font-weight: 400, 500;
+  font-weight: 200;
   font-style: normal;
 } 
 
@@ -13,10 +13,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 500;
-  
+  font-family: 'DM Sans', sans-serif;  
 }
 
 
@@ -25,7 +22,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnas de igual tamaño */
   grid-template-rows: 20rem 13rem 13rem;          /* 3 filas de igual tamaño */
   gap: 2rem;                           /* Espacio entre los elementos */
-  width: 75%;
+  width: 60%;
   margin: 70px auto;                  /* Centrado horizontal con margen superior */
 }
 
@@ -35,11 +32,27 @@ body {
   grid-row: 1 / 2;    /* Ocupa desde la línea de fila 1 hasta la 3 */
   background-color: hsl(256, 67%, 59%);
   border-radius: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-1 h1 {
   color: white;
   padding: 2rem;
+  font-size: 3.5rem;
+  width: 80%;
+  font-weight: 500;
+}
+
+.item-1 p {
+  color: hsl(10, 10%, 100%);
+  font-size: 1.2rem;
+}
+
+.item-1 img {
+  width: 30%;
 }
 
 .item-2 {
@@ -73,13 +86,13 @@ body {
 
 .item-5 img {
   width: 40%;
-  float: left;
+  margin: 1.5rem;
 }
 
 .item-5 h2 {
   margin-top: 3.5rem;
-  float: right;
-  height: larger;
+  font-size: 2rem;
+
 }
 
 .item-6 {
@@ -102,10 +115,14 @@ body {
   margin-left: 1rem;
 }
 
+.item-7 h2 {
+  font-size: 2rem;
+}
+
 .item-7 h2 p{
   color: hsl(256, 67%, 59%);
   font-style: italic;
-  font-weight: 700;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -127,9 +144,14 @@ body {
 
 .item-8 h2 {
   padding: 2rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
